@@ -19,7 +19,7 @@ class MapContainer extends Component {
       const node = ReactDOM.findDOMNode(mapRef);//finds the 'map' div in teh React dom, names it
       const mapConfig = Object.assign({}, {
         center: {lat: 37.8044, lng: 122.2711},
-        zoom: 11,
+        zoom: 1,
         mapTypeId: 'roadmap'
       })
       this.map = new maps.Map(node, mapConfig);
@@ -28,8 +28,8 @@ class MapContainer extends Component {
 
   render() {
     const style = {
-      width: '90vw',
-      height: '75vh'
+      width: '30',
+      height: '40vh'
     }
 
     return (
