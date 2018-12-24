@@ -66,15 +66,6 @@ class App extends Component {
 
 
 
-// PART 2: Take this components generated HTML and put it on the page ( in the DOM)
-//App << this is a class of the component.
- // ReactDOM.render(<App />, document.querySelector('.container'));
-
 export default GoogleApiWrapper({
   apiKey: 'AIzaSyAMlPoVlRO7ISbslg6xQEcqkyv3d2Pwg7A',
 })(App)
-//
-// export default MeetUp(
-//   apiKey: 'd47538034411e4526726eb4345543',
-//
-// )(App)
