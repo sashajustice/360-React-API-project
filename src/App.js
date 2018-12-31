@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';//react library we use to interact w actual DOM
+import ReactDOM from 'react-dom';
 import _ from 'lodash';
 import YTSearch from 'youtube-api-search';
 import MeetUp from 'meetup-api';
